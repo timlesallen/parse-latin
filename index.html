@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>parse-latin</title>
-        <link rel="stylesheet" href="./index.css" />
-    </head>
-    <body class="parse-latin">
-        <header class="parse-latin-heading">
-            <h1 class="parse-latin-heading__header">parse-latin
-                <a href="https://travis-ci.org/wooorm/parse-latin">
-                    <img alt="Build Status" src="https://travis-ci.org/wooorm/parse-latin.svg?branch=master">
-                </a><a href="https://coveralls.io/r/wooorm/parse-latin?branch=master">
-                    <img alt="Coverage" src="https://img.shields.io/coveralls/wooorm/parse-latin.svg">
-                </a><a href="http://opensource.org/licenses/MIT">
-                    <img alt="License"  src="http://img.shields.io/npm/l/parse-latin.svg" style="max-width:100%;">
-                </a><a href="https://www.npmjs.org/package/parse-latin">
-                    <img alt="Version"  src="http://img.shields.io/npm/v/parse-latin.svg" style="max-width:100%;">
-                </a>
-            </h1>
-        </header>
-        <div class="parse-latin-editor">
-            <textarea class="parse-latin-editor__input" autofocus>The easiest way to see how parse-latin tokenises and parses, is by using this online demo. Here you can change the text, and on the right the corresponding syntax tree will be shown.
+  <head>
+    <title>parse-latin</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="parse-latin">
+    <header class="parse-latin-heading">
+      <h1 class="parse-latin-heading__header">
+        <a href="https://github.com/wooorm/parse-latin">
+          parse-latin
+        </a>
+        <a href="https://travis-ci.org/wooorm/parse-latin">
+          <img alt="Build Status" src="https://img.shields.io/travis/wooorm/parse-latin.svg?style=flat" />
+        </a>
+        <a href="https://coveralls.io/r/wooorm/parse-latin">
+          <img alt="Coverage" src="https://img.shields.io/coveralls/wooorm/parse-latin.svg?style=flat">
+        </a>
+        <a href="http://opensource.org/licenses/MIT">
+          <img alt="License"  src="http://img.shields.io/npm/l/parse-latin.svg?style=flat">
+        </a>
+        <a href="https://www.npmjs.org/package/parse-latin">
+          <img alt="Version"  src="http://img.shields.io/npm/v/parse-latin.svg?style=flat">
+        </a>
+      </h1>
+    </header>
+    <div class="parse-latin-editor">
+      <textarea class="parse-latin-editor__input" autofocus>The easiest way to see how parse-latin tokenises and parses, is by using this online demo. Here you can change the text, and on the right the corresponding syntax tree will be shown.
 
 Just try it. It’s pretty cool :)</textarea>
-        </div>
-        <pre class="parse-latin-output"><code class="parse-latin-output__tree"></code></pre>
-        <script src="build/build.js"></script>
-    </body>
+    </div>
+    <pre class="parse-latin-output"><code class="parse-latin-output__tree"></code></pre>
+    <script src="build.js"></script>
+  </body>
 </html>

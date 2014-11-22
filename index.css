@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+h1 a {
+    color: inherit;
+}
+
 .parse-latin-heading {
     width: 100%;
     position: absolute;
