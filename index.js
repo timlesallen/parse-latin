@@ -4,7 +4,7 @@
  * Dependencies.
  */
 
-var ParseLatin = require('wooorm/parse-latin@0.4.0');
+var ParseLatin = require('wooorm/parse-latin@0.4.2');
 
 /**
  * `parse-latin`.
